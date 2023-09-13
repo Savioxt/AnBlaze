@@ -106,10 +106,10 @@ def Menu():
     print('+========+')
     line=input(">>>>>>>>>>>>>>>>>>>>> :")
     if line=='1':
-        #bdados("https://blaze.com/pt/games/crash?modal=crash_history_index","history")
+        bdados("https://blaze.com/pt/games/crash?modal=crash_history_index","history")
         Crash()
     elif line == '2':    
-        #bdados("https://blaze.com/pt/games/double?modal=double_history_index","history__double")
+        bdados("https://blaze.com/pt/games/double?modal=double_history_index","history__double")
         Double()
     elif line == '0':
         exit()    
